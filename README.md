@@ -188,12 +188,9 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	当d=0时，二者一样合适，取P1。
 
-<<<<<<< HEAD
-<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546136938078.png?raw=true">
-=======
-<img src="C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546136938078.png">
 
->>>>>>> 2dbfd91e58fe010140488fcb6189b4ff47a63884
+
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546136938078.png?raw=true">
 
 ​	**实现过程中一个易错点：纸上作图时习惯将y轴正方向朝上,但屏幕上的y轴正方向是朝下的。虽然是非常简单的一点，但实际操作过程中由于习惯原因容易忘记，导致代码出现隐含的错误。**
 
