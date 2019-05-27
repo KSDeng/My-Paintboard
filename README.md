@@ -188,8 +188,12 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	当d=0时，二者一样合适，取P1。
 
+<<<<<<< HEAD
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546136938078.png?raw=true">
+=======
 <img src="C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546136938078.png">
 
+>>>>>>> 2dbfd91e58fe010140488fcb6189b4ff47a63884
 
 ​	**实现过程中一个易错点：纸上作图时习惯将y轴正方向朝上,但屏幕上的y轴正方向是朝下的。虽然是非常简单的一点，但实际操作过程中由于习惯原因容易忘记，导致代码出现隐含的错误。**
 
@@ -215,9 +219,9 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	**该算法原理与中点画线算法大同小异，主要区别在于判别式不同，以及注意不同判别式适用的范围以及不同范围之间的边界。**
 
-![1546138480475](C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546138480475.png)
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546138480475.png?raw=true">
 
-![1546138504764](C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546138504764.png)
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546138504764.png?raw=true">
 
 #### 注入填充算法
 
@@ -249,7 +253,7 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	(tx, ty) - 平移向量/转换向量
 
-![1546138644798](C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546138644798.png)
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546138644798.png?raw=true">
 
 
 
@@ -257,9 +261,7 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	采用旋转矩阵对选中区域的像素点进行坐标变换。
 
-![\begin{bmatrix} x' \\ y' \\ \end{bmatrix} = \begin{bmatrix} \cos \theta & -\sin \theta \\ \sin \theta & \cos \theta \\ \end{bmatrix} \left ( \begin{bmatrix} x \\ y \\ \end{bmatrix} -  \begin{bmatrix} c_x \\ c_y \\ \end{bmatrix} \right ) +  \begin{bmatrix} c_x \\ c_y \\ \end{bmatrix} ](https://www.zhihu.com/equation?tex=%5Cbegin%7Bbmatrix%7D%0Ax%27+%5C%5C%0Ay%27+%5C%5C%0A%5Cend%7Bbmatrix%7D+%3D+%5Cbegin%7Bbmatrix%7D%0A%5Ccos+%5Ctheta+%26+-%5Csin+%5Ctheta+%5C%5C%0A%5Csin+%5Ctheta+%26+%5Ccos+%5Ctheta+%5C%5C%0A%5Cend%7Bbmatrix%7D%0A%5Cleft+%28%0A%5Cbegin%7Bbmatrix%7D%0Ax+%5C%5C%0Ay+%5C%5C%0A%5Cend%7Bbmatrix%7D%0A-+%0A%5Cbegin%7Bbmatrix%7D%0Ac_x+%5C%5C%0Ac_y+%5C%5C%0A%5Cend%7Bbmatrix%7D%0A%5Cright+%29%0A%2B+%0A%5Cbegin%7Bbmatrix%7D%0Ac_x+%5C%5C%0Ac_y+%5C%5C%0A%5Cend%7Bbmatrix%7D%0A)
-
-
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/rotate.png?raw=true">
 
 #### 双线性插值算法
 
@@ -291,7 +293,7 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
 ​	原理：先对区域进行编码，再根据编码进行点的取舍与坐标变换。**具体不再赘述，实现见paintboard.cpp**
 
-![1546139280884](C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546139280884.png)
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546139280884.png?raw=true">
 
 
 
@@ -309,7 +311,9 @@ https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD
 
    **具体原理不再赘述，实现见paintboard.cpp**
 
-   ![1546139570710](C:\Users\46949\AppData\Roaming\Typora\typora-user-images\1546139570710.png)
+   
+
+<img src="https://github.com/KSDeng/pictures/blob/master/pictures/%E5%9B%BE%E5%BD%A2%E5%AD%A612%E6%9C%88/1546139570710.png?raw=true">
 
 #### OpenGL三维模型显示
 
